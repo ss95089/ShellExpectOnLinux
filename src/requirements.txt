@@ -1,0 +1,8 @@
+altgraph==0.17.3
+certifi @ file:///croot/certifi_1665076670883/work/certifi
+colored==1.4.3
+pexpect==4.8.0
+ptyprocess==0.7.0
+pyinstaller==5.6.1
+pyinstaller-hooks-contrib==2022.10
+termcolor==2.0.1
