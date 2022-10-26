@@ -22,7 +22,7 @@ Logs are output to the current logs folder.
 
 ---
 ### Download
-[LinuxExpect_v0.001.zip](https://)  
+[LinuxExpect_v0.001.zip](https://github.com/ss95089/ShellExpectOnLinux/raw/main/dist/LinuxExpect_v0.001.zip)  
 
 ---
 ### Development environment
