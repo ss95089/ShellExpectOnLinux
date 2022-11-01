@@ -10,6 +10,7 @@ class LinuxExpect(object):
     def __init__(self, prompt, timeout, fileName):
         self.wlog = open('logs/{}_{}_plain.log'.format(datetime.datetime.now().strftime('%Y%m%d-%H%M%S'), fileName), 'wb')
         self.process = pexpect.spawn('/bin/sh', logfile=self.wlog)
+        self.process.setwinsize(400, 400)
         self.prompt = prompt
         self.timeout = timeout
 
